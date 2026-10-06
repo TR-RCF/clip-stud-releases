@@ -1,17 +1,17 @@
 # CLIP STUD (portable)
 
-Application de montage et de sous-titrage pour Windows x64, basée sur CLIP STUD UX.
+Application Windows 64 bits pour monter, sous-titrer et exporter des clips.
 
-**Distribution publique temporairement suspendue.** Aucune version publique n'est actuellement proposée au téléchargement. Les installations existantes restent utilisables ; l'onglet MAJ ne propose actuellement aucun paquet.
+[Version 1.0.2 et téléchargements](https://github.com/TR-RCF/clip-stud-releases/releases/tag/v1.0.2)
 
-Lorsqu'une version validée sera à nouveau publiée :
+Cette version corrige l’import de vidéos affichées à 0 seconde et ajoute les trois presets RCF : interview, solo et mixte.
 
-1. Télécharger le fichier **CLIP-STUD-portable-<version>.zip**.
-2. Extraire entièrement le ZIP dans un dossier accessible en écriture.
-3. Ouvrir **Lancer-CLIP-STUD.bat** et laisser la console ouverte.
+Pour les collègues RCF, votre équipe fournit **un seul ZIP interne complet**, avec l’application et la charte originale. Extraire ce ZIP puis lancer `Lancer-CLIP-STUD.bat`. Les dépendances sont installées automatiquement dans le dossier, sans droits administrateur. Les mises à jour suivantes passent par **Réglages → MAJ** et conservent la charte et les projets.
 
-Le premier lancement télécharge les outils et les dépendances dans le dossier de l'application, sans droits administrateur. Internet est requis pour cette étape et pour le premier téléchargement d'un modèle. Les modèles sont conservés pour les utilisations suivantes. Le petit ZIP nécessite donc plusieurs gigaoctets supplémentaires après installation.
+Le ZIP public utilise des alternatives Open Sans jusqu’à l’ajout du pack interne. Les polices commerciales de la charte RCF ne sont pas publiées ici. Le ZIP interne doit rester dans les canaux de partage internes.
 
-Les prochaines versions s'installent depuis **Réglages → MAJ**. Enregistrer le travail avant de redémarrer. Les projets, réglages et modèles restent sur votre ordinateur ; une version précédente peut être restaurée.
+Le dépôt de travail est privé. Les paquets publics ne contiennent pas les sources Python brutes, TypeScript, sourcemaps, benchmarks, dossiers de projets ou clés personnelles. Ils contiennent des modules Python compilés, des bundles JavaScript minifiés et des scripts de lancement/install lisibles. Le logiciel distribué reste analysable ; ces mesures ne garantissent pas la confidentialité de ses algorithmes.
 
-Ce dépôt contient les paquets de distribution publics et leurs empreintes SHA-256. Le dépôt de développement est privé. Aucun compte GitHub n'est nécessaire pour télécharger les paquets.
+Les fichiers de mise à jour sont contrôlés par SHA-256. Les données, modèles et fichiers de charte restent locaux ; la version précédente peut être restaurée.
+
+Les anciennes versions 1.0.0 et 1.0.1 restent retirées de l’accès public après l’audit de leurs archives.
