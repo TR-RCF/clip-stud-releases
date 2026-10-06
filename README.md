@@ -2,7 +2,9 @@
 
 Application de montage et de sous-titrage pour Windows x64, basée sur CLIP STUD UX.
 
-**[Télécharger la dernière version](https://github.com/TR-RCF/clip-stud-releases/releases/latest)**
+**Distribution publique temporairement suspendue.** Aucune version publique n'est actuellement proposée au téléchargement. Les installations existantes restent utilisables ; l'onglet MAJ ne propose actuellement aucun paquet.
+
+Lorsqu'une version validée sera à nouveau publiée :
 
 1. Télécharger le fichier **CLIP-STUD-portable-<version>.zip**.
 2. Extraire entièrement le ZIP dans un dossier accessible en écriture.
